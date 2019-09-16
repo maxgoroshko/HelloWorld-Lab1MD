@@ -17,8 +17,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.button).setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                //Toast.makeText(MainActivity.this, "You clicked main button", Toast.LENGTH_LONG).show();
-                ((TextView)findViewById(R.id.textView)).setText("Your Text"); 
+                ((TextView)findViewById(R.id.textView)).setText("You have clicked the button");
             }
         });
     }
