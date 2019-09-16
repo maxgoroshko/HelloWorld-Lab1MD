@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //Toast.makeText(MainActivity.this, "You clicked main button", Toast.LENGTH_LONG).show();
-                ((TextView)findViewById(R.id.textView)).setText("Your Text");
+                ((TextView)findViewById(R.id.textView)).setText("Your Text"); 
             }
         });
     }
